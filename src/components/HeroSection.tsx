@@ -48,7 +48,7 @@ const HeroSection = () => {
             variant="outline"
             size="lg"
             onClick={whatsappContact}
-            className="border-white/30 text-white hover:bg-white/10 font-body font-semibold px-8 py-4 text-lg backdrop-blur-sm transition-luxury"
+            className="border-white/50 bg-transparent text-white hover:bg-white/20 font-body font-semibold px-8 py-4 text-lg backdrop-blur-sm transition-luxury"
           >
             Quero Saber Mais
           </Button>
