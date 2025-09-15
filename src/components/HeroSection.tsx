@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import heroImage from '@/assets/hero-beauty.jpg';
+import heroVideo from '@/assets/hero-video.mp4';
 
 const HeroSection = () => {
   const whatsappContact = () => {
@@ -8,13 +8,16 @@ const HeroSection = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ 
-          backgroundImage: `url(${heroImage})`,
-        }}
-      />
+      {/* Background Video */}
+      <video 
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+        className="absolute inset-0 w-full h-full object-cover"
+      >
+        <source src={heroVideo} type="video/mp4" />
+      </video>
       
       {/* Overlay */}
       <div className="absolute inset-0 hero-gradient" />
