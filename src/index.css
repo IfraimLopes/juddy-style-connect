@@ -61,8 +61,8 @@ All colors MUST be HSL.
     --shadow-soft: 0 4px 6px -1px hsl(0 0% 3.9% / 0.1);
     
     /* Typography */
-    --font-heading: 'Playfair Display', serif;
-    --font-body: 'Inter', sans-serif;
+    --font-heading: 'Montserrat', sans-serif;
+    --font-body: 'Poppins', sans-serif;
     
     /* Animations */
     --transition-luxury: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
